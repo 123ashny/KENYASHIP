@@ -58,14 +58,14 @@ const CTASection = () => {
                             <ContactItem
                                 icon={MapPin}
                                 label="Head Office"
-                                value="Westlands, Nairobi, Kenya"
+                                value="Bangladesh, Nakuru, Kenya"
                             />
                         </div>
 
                         <div className="mt-8 pt-6 border-t border-primary-foreground/10">
                             <p className="text-sm opacity-60 mb-4">Follow us on social media</p>
                             <div className="flex gap-4">
-                                {["Twitter", "Facebook", "LinkedIn"].map((social) => (
+                                {["Twitter", "Facebook", "LinkedIn", "Github"].map((social) => (
                                     <a
                                         key={social}
                                         href="#"

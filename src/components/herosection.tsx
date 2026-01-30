@@ -111,8 +111,7 @@ const HeroSection = () => {
 
 const StatCard = ({ number, label, delay }: { number: string; label: string; delay: number }) => (
     <div
-        className="text-center p-4 rounded-2xl bg-accent/50 animate-fade-in"
-        style={{ animationDelay: `${delay}ms` }}
+        className={`text-center p-4 rounded-2xl bg-accent/50 animate-fade-in delay-${delay}`}
     >
         <div className="font-display text-3xl md:text-4xl font-bold text-primary mb-1">
             {number}

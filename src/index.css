@@ -89,4 +89,9 @@
   .bg-gradient-dark {
     @apply bg-gradient-to-br from-gray-900 to-gray-800;
   }
+
+  .delay-0 { animation-delay: 0ms; }
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
 }
